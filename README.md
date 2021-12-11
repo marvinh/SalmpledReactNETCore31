@@ -22,4 +22,7 @@
 
 # Current ER Digram
 
+![alt text](https://github.com/marvinh/SalmpledReactNETCore31/blob/main/SalmpledCurrentER.png?raw=true)
+
+
 
