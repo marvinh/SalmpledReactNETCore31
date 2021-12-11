@@ -1,0 +1,12 @@
+using System;
+namespace Salmpled.Models
+{
+    public class SampleSampleTag {
+    public Guid SampleId { get; set; }
+    public  Sample Sample { get; set; }
+    public Guid SampleTagId { get; set; }
+    public  SampleTag SampleTag { get; set; }
+
+    }
+    
+}

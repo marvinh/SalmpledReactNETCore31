@@ -1,0 +1,7 @@
+POST http://localhost:5000/api/todoitems
+Content-Type: application/json 
+
+{
+    "name": "Vs code is cool",
+    "isComplete": false
+}

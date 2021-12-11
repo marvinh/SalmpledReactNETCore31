@@ -1,0 +1,11 @@
+using System;
+namespace Salmpled.Models
+{
+    public class SamplePlaylistSamplePlaylistGenre {
+    public Guid SamplePlaylistId { get; set; }
+    public  SamplePlaylist SamplePlaylist { get; set; }
+    public Guid SamplePlaylistGenreId { get; set; }
+    public  SamplePlaylistGenre SamplePlaylistGenre { get; set; }
+    }
+    
+}

@@ -1,0 +1,23 @@
+version: '2.1'
+services:
+  salmpled:
+    build:
+      context: ./Salmpled
+      dockerfile: Dockerfile
+    expose:
+      - "5000"
+    restart: always
+  reverseproxy:
+    build:
+      context: ./reverseproxy
+      dockerfile: Dockerfile
+    ports:
+      - "80:80"
+    restart: always
+    links :
+      - salmpled
+
+
+
+
+     
